@@ -19,7 +19,7 @@ class AboutMeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_work_experience, container, false)
+        return inflater.inflate(R.layout.fragment_aboutme, container, false)
     }
 
 

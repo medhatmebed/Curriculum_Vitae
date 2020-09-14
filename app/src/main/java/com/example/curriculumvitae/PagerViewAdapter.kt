@@ -13,13 +13,13 @@ internal class PagerViewAdapter(fm: FragmentManager?) : FragmentPagerAdapter(fm!
                 HomeFragment()
             }
             1 -> {
-                Contact()
-            }
-            2 -> {
                 AboutMeFragment()
             }
-            3 -> {
+            2 -> {
                 WorkExperienceFragment()
+            }
+            3 -> {
+                Contact()
             }
             else -> Fragment()
         }

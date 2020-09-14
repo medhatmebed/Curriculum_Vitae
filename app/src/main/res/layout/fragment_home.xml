@@ -60,18 +60,27 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="4"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="24dp"
+                android:layout_marginLeft="6dp"
                 android:textStyle="bold"
-
-
                 android:text="iOS Developer (2018-2020)"
                 />
+
+            <Button
+                android:id="@+id/linkedInBtnHomeFragment"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/linkedin_logo"
+                 />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

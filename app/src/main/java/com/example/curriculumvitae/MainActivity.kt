@@ -8,9 +8,9 @@ import androidx.viewpager.widget.ViewPager
 class MainActivity : AppCompatActivity() {
 
     private lateinit var homeBtn: ImageButton
-    private lateinit var notiBtn: ImageButton
-    private lateinit var searchBtn: ImageButton
-    private lateinit var profileBtn: ImageButton
+    private lateinit var workPortofolioBtn: ImageButton
+    private lateinit var aboutMeBtn: ImageButton
+    private lateinit var contactBtn: ImageButton
 
     private lateinit var mViewPager: ViewPager
     private lateinit var mPagerViewAdapter: PagerViewAdapter
@@ -25,9 +25,9 @@ class MainActivity : AppCompatActivity() {
         mViewPager = findViewById(R.id.mViewPager)
         homeBtn = findViewById(R.id.homeBtn)
 
-        profileBtn = findViewById(R.id.profileBtn)
-        searchBtn = findViewById(R.id.searchBtn)
-        notiBtn = findViewById(R.id.notiBtn)
+        contactBtn = findViewById(R.id.profileBtn)
+        aboutMeBtn = findViewById(R.id.searchBtn)
+        workPortofolioBtn = findViewById(R.id.notiBtn)
 
 
         //onclick listner
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        searchBtn.setOnClickListener {
+        aboutMeBtn.setOnClickListener {
 
             mViewPager.currentItem = 1
 
@@ -45,12 +45,12 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        notiBtn.setOnClickListener {
+        workPortofolioBtn.setOnClickListener {
             mViewPager.currentItem = 2
 
         }
 
-        profileBtn.setOnClickListener {
+        contactBtn.setOnClickListener {
             mViewPager.currentItem = 3
 
         }
@@ -96,9 +96,9 @@ class MainActivity : AppCompatActivity() {
 
         if (position == 0) {
             homeBtn.setImageResource(R.drawable.ic_home_pink)
-            searchBtn.setImageResource(R.drawable.ic_search_black)
-            notiBtn.setImageResource(R.drawable.ic_notifications_blck)
-            profileBtn.setImageResource(R.drawable.ic_person_outline_)
+            aboutMeBtn.setImageResource(R.drawable.ic_search_black)
+            workPortofolioBtn.setImageResource(R.drawable.ic_notifications_blck)
+            contactBtn.setImageResource(R.drawable.ic_person_outline_)
 
 
 
@@ -106,9 +106,9 @@ class MainActivity : AppCompatActivity() {
         }
         if (position == 1) {
             homeBtn.setImageResource(R.drawable.ic_home_black_)
-            searchBtn.setImageResource(R.drawable.ic_search_pink)
-            notiBtn.setImageResource(R.drawable.ic_notifications_blck)
-            profileBtn.setImageResource(R.drawable.ic_person_outline_)
+            aboutMeBtn.setImageResource(R.drawable.ic_search_pink)
+            workPortofolioBtn.setImageResource(R.drawable.ic_notifications_blck)
+            contactBtn.setImageResource(R.drawable.ic_person_outline_)
 
 
 
@@ -117,16 +117,16 @@ class MainActivity : AppCompatActivity() {
 
         if (position == 2) {
             homeBtn.setImageResource(R.drawable.ic_home_black_)
-            searchBtn.setImageResource(R.drawable.ic_search_black)
-            notiBtn.setImageResource(R.drawable.ic_notifications_fill)
-            profileBtn.setImageResource(R.drawable.ic_person_outline_)
+            aboutMeBtn.setImageResource(R.drawable.ic_search_black)
+            workPortofolioBtn.setImageResource(R.drawable.ic_notifications_fill)
+            contactBtn.setImageResource(R.drawable.ic_person_outline_)
 
         }
         if (position == 3) {
             homeBtn.setImageResource(R.drawable.ic_home_black_)
-            searchBtn.setImageResource(R.drawable.ic_search_black)
-            notiBtn.setImageResource(R.drawable.ic_notifications_blck)
-            profileBtn.setImageResource(R.drawable.ic_person_pink_fill)
+            aboutMeBtn.setImageResource(R.drawable.ic_search_black)
+            workPortofolioBtn.setImageResource(R.drawable.ic_notifications_blck)
+            contactBtn.setImageResource(R.drawable.ic_person_pink_fill)
 
         }
 
