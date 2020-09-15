@@ -46,7 +46,7 @@
                 android:id="@+id/facebookBtn"
                 android:layout_width="0dp"
                 android:layout_height="85dp"
-                android:layout_weight="0.2"
+                android:layout_weight="0.12"
                 android:gravity="fill"
                 android:background="@drawable/facebook_logo" />
 
@@ -54,7 +54,7 @@
                 android:id="@+id/twitterBtn"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:layout_weight="0.15"
+                android:layout_weight="0.09"
                 android:layout_marginLeft="-15dp"
                 android:layout_marginRight="15dp"
                 android:background="@drawable/twitter_logo"
@@ -64,7 +64,7 @@
                 android:id="@+id/linkedInBtnContactFragment"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:layout_weight="0.15"
+                android:layout_weight="0.08"
                 android:background="@drawable/linkedin_logo"
                 android:layout_marginRight="30dp"
                  />
