@@ -1,7 +1,6 @@
 package com.example.curriculumvitae.Fragments
 
 
-import android.app.Application
 import android.graphics.Color
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,8 +11,6 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import androidx.core.view.marginLeft
-import androidx.core.view.marginTop
 import androidx.fragment.app.Fragment
 import com.example.curriculumvitae.R
 import com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -82,6 +79,13 @@ class AboutMeFragment : Fragment() {
                     text.setTextColor(Color.WHITE)
                     text.paddingLeft
                     text.paddingRight
+                    val left = 6
+                    val top = 12
+                    val right = 6
+                    val bottom = 6
+                    val params = LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT)
+                    params.setMargins(left, top, right, bottom)
+                    text.setLayoutParams(params);
                     ll.addView(text)
 
                 }else {
