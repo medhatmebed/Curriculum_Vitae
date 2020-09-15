@@ -38,7 +38,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
-                    android:text="Medhat Meebed"
+                    android:text="Regina Kandekere"
                     android:textSize="26dp"
                     android:layout_marginTop="60dp"
                     android:textStyle="bold"
