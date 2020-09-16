@@ -25,9 +25,9 @@ class MainActivity : AppCompatActivity() {
         mViewPager = findViewById(R.id.mViewPager)
         homeBtn = findViewById(R.id.homeBtn)
 
-        contactBtn = findViewById(R.id.profileBtn)
-        aboutMeBtn = findViewById(R.id.searchBtn)
-        workPortofolioBtn = findViewById(R.id.notiBtn)
+        contactBtn = findViewById(R.id.contactBtn)
+        aboutMeBtn = findViewById(R.id.aboutMeBtn)
+        workPortofolioBtn = findViewById(R.id.WorkExperBtn)
 
 
         //onclick listner
@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
 
 
         mViewPager.currentItem = 0
-        homeBtn.setImageResource(R.drawable.ic_home_pink)
+        homeBtn.setImageResource(R.drawable.ic_home_black_)
 
 
 
@@ -95,10 +95,10 @@ class MainActivity : AppCompatActivity() {
 
 
         if (position == 0) {
-            homeBtn.setImageResource(R.drawable.ic_home_pink)
-            aboutMeBtn.setImageResource(R.drawable.ic_search_black)
-            workPortofolioBtn.setImageResource(R.drawable.ic_notifications_blck)
-            contactBtn.setImageResource(R.drawable.ic_person_outline_)
+            homeBtn.setImageResource(R.drawable.ic_home_black_)
+            aboutMeBtn.setImageResource(R.drawable.ic_person_outline_)
+            workPortofolioBtn.setImageResource(R.drawable.ic_add_black)
+            contactBtn.setImageResource(R.drawable.ic_notifications_blck)
 
 
 
@@ -106,9 +106,9 @@ class MainActivity : AppCompatActivity() {
         }
         if (position == 1) {
             homeBtn.setImageResource(R.drawable.ic_home_black_)
-            aboutMeBtn.setImageResource(R.drawable.ic_search_pink)
-            workPortofolioBtn.setImageResource(R.drawable.ic_notifications_blck)
-            contactBtn.setImageResource(R.drawable.ic_person_outline_)
+            aboutMeBtn.setImageResource(R.drawable.ic_person_outline_)
+            workPortofolioBtn.setImageResource(R.drawable.ic_add_black)
+            contactBtn.setImageResource(R.drawable.ic_notifications_blck)
 
 
 
@@ -117,16 +117,16 @@ class MainActivity : AppCompatActivity() {
 
         if (position == 2) {
             homeBtn.setImageResource(R.drawable.ic_home_black_)
-            aboutMeBtn.setImageResource(R.drawable.ic_search_black)
-            workPortofolioBtn.setImageResource(R.drawable.ic_notifications_fill)
-            contactBtn.setImageResource(R.drawable.ic_person_outline_)
+            aboutMeBtn.setImageResource(R.drawable.ic_person_outline_)
+            workPortofolioBtn.setImageResource(R.drawable.ic_add_black)
+            contactBtn.setImageResource(R.drawable.ic_notifications_blck)
 
         }
         if (position == 3) {
             homeBtn.setImageResource(R.drawable.ic_home_black_)
-            aboutMeBtn.setImageResource(R.drawable.ic_search_black)
-            workPortofolioBtn.setImageResource(R.drawable.ic_notifications_blck)
-            contactBtn.setImageResource(R.drawable.ic_person_pink_fill)
+            aboutMeBtn.setImageResource(R.drawable.ic_person_outline_)
+            workPortofolioBtn.setImageResource(R.drawable.ic_add_black)
+            contactBtn.setImageResource(R.drawable.ic_notifications_blck)
 
         }
 
