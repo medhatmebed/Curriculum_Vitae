@@ -49,7 +49,7 @@ class Contact : Fragment() {
         val intent = Intent(getActivity(), WebViewActivity::class.java)
         var link: String?
         when(destination) {
-            "linkedIn" -> link = "http://www.linkedin.com/in/medhat-meebed-\uF8FF-b2691b51"
+            "linkedIn" -> link = "https://www.linkedin.com/company/prada"
             "twitter" -> link = "https://twitter.com/"
             "facebook" -> link = "https://facebook.com"
             else -> link = "https://www.google.com"

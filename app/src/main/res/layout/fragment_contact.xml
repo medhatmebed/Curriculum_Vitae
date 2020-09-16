@@ -2,9 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/trans_red"
-    android:gravity="center"
-    >
+    android:background="@color/trans_turq"
+    android:gravity="center">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,29 +15,29 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="16dp"
             android:text="Address: 1000n 4th st\nFairfield, Iowa"
-            android:textStyle="bold"
-            android:layout_marginLeft="6dp"
-            android:textSize="26dp" />
+            android:textSize="26dp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="email: mmeebed@miu.edu\nphone: 641-541-7803"
-            android:textStyle="bold"
             android:layout_marginLeft="6dp"
-            android:textSize="26dp" />
+            android:text="email: rkandekere@miu.edu"
+            android:textSize="26dp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
-            android:orientation="horizontal"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="80dp"
             android:gravity="bottom"
+            android:orientation="horizontal"
 
             >
 
@@ -47,27 +46,25 @@
                 android:layout_width="0dp"
                 android:layout_height="85dp"
                 android:layout_weight="0.12"
-                android:gravity="fill"
-                android:background="@drawable/facebook_logo" />
+                android:background="@drawable/facebook_logo"
+                android:gravity="fill" />
 
             <Button
                 android:id="@+id/twitterBtn"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:layout_weight="0.09"
                 android:layout_marginLeft="-15dp"
                 android:layout_marginRight="15dp"
-                android:background="@drawable/twitter_logo"
-                 />
+                android:layout_weight="0.09"
+                android:background="@drawable/twitter_logo" />
 
             <Button
                 android:id="@+id/linkedInBtnContactFragment"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:layout_weight="0.08"
-                android:background="@drawable/linkedin_logo"
                 android:layout_marginRight="30dp"
-                 />
+                android:layout_weight="0.08"
+                android:background="@drawable/linkedin_logo" />
         </LinearLayout>
     </LinearLayout>
 
